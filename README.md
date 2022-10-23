@@ -14,7 +14,7 @@ At the same time, a Web Server is set up on AWS to provide users with visual dat
 
 ## **Directory**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/85a64ded-2e52-4fb0-8efb-573a3355f6d7/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392015-669e4cb2-b070-4dc0-8f2f-9fd4f6808627.png)
 
 There are three project directories, one for each level of Code.
 
@@ -24,7 +24,7 @@ layer 2: Js and python code (Python code to be perfected)
 
 layer 3: Express Sever and React Client
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4a0c61b1-f371-4b64-b9ec-25b92b4c32a1/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392019-2880050d-c96e-4973-8acb-372671843e2f.png)
 
 The key used system directory corresponds to
 
@@ -38,7 +38,7 @@ Each directory contains the system firmware for an Arduino, and the applicable v
 
 The Arduino kit can be used to brush the hardware, and the link diagram is introduced later.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a950a63-8de6-402d-b94a-326cfd660a70/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392037-c0badeaf-ba6b-4c97-86a1-0e6dfa4c9a00.png)
 
 The Node file used in this example lives in the Node directory and is running under Node16.0. Simply execute node + file.js on a machine with a network connection.
 
@@ -50,7 +50,7 @@ The Node file used in this example lives in the Node directory and is running un
 
 Make sure the teensy device has a Bluetooth connection to the device you're running the app on before executing the command.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3bb01f62-614e-497d-b291-611eb594498e/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392049-7d3dd9df-4270-42c9-9eae-581ce0536a14.png)
 
 The Server should be deployed on a Linux server with Node js 16.0 installed.
 
@@ -64,13 +64,13 @@ The command is
 
 ## **Architecture**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/90d89e2c-d5e1-4027-81bd-cb28b770130e/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392063-0b718bca-7249-4ea3-80f4-9fd8df41d18c.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca85efac-39ad-4f4d-ba80-b870303a9ead/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392070-f03f4126-dcc0-43a3-adfe-8203934e54c0.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/edf04f6d-5110-44b0-aa19-4f7143237106/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392077-4445be4d-2508-474b-9f26-c7d1b241cb65.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1a6dbd25-0130-4ac3-b1f7-530924bba077/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392082-4f428e54-f82f-4867-b1ea-8d3c0f8000f6.png)
 
 ## **Design circuit diagram**
 
@@ -78,15 +78,15 @@ The command is
 
 ### **Sensor**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bcf330f9-92c1-424e-a46a-83eb554b3f6e/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392088-38cf9882-2457-4e44-b438-39ad1ffa2ad8.png)
 
 ### **Pump**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/451072a5-3cbd-4ffb-9756-0b850d24a200/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392097-a471a623-8d6f-4e9c-a875-17270971bae2.png)
 
 Monitor
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2f3b4d7-db73-41d0-9396-006d53d78df9/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392101-103d01ac-5857-4af8-bd29-ec0f29120097.png)
 
 ### **Technical parameters**
 
@@ -120,21 +120,20 @@ Monitor
 
 Flow Diagram
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7b1c053-728e-4fdb-8569-5e2ba2b74b5d/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392111-4c5987b0-22d3-4387-be03-a0d99fc616c0.png)
 
 Web
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb929ba4-4292-4583-84f6-827396218c42/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392120-dd69a398-625d-4738-94bd-13924ca21b23.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d881f324-865c-42a7-8bcc-a6a3d6e627d1/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392124-616ca890-3e97-4111-9353-9ec805f24c10.png)
 
 <!--TLS is used to encrypt the session transmission to ensure data security.-->
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3283382c-1807-42b2-90a0-837ac306cc7d/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392131-31a1af2b-58be-4fed-a724-fef9d8d32ccd.png)
 
 Be sure to replace your own CA certificate
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5fa8132-e1e0-45e4-a6e2-f01062daa4e2/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392165-85b5783d-8514-4a73-a749-1f9366b43d1b.png)
 
 Link:
 
@@ -146,8 +145,8 @@ port: 1883
 
 Username password authentication has been enabled
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6f0b3c4-6948-4f4e-b0a8-c196b1d0eb9a/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392169-9f031e58-b8c8-43c3-a1ba-102e63cf67c4.png)
 
 ## **The power supply parameters**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb47659e-689d-455f-bf1b-2721560fccd1/Untitled.png)
+![image](https://user-images.githubusercontent.com/101891432/197392175-0c46655a-d781-4fa6-a636-45304f4acf93.png)
