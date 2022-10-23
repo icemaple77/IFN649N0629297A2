@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/layer2/Node/node_modules
+
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+layer2/Client1/.gitignore
+layer2/Client1/package-lock.json
+layer2/Client1/package.json
+layer2/Client1/tsconfig.json
+layer2/Client1/client/.gitignore
+layer2/Client1/client/package-lock.json
+layer2/Client1/client/package.json
+layer2/Client1/client/README.md
+layer2/Client1/client/yarn.lock
+layer2/Client1/client/public/favicon.ico
+layer2/Client1/client/public/index.html
+layer2/Client1/client/public/logo192.png
+layer2/Client1/client/public/logo512.png
+layer2/Client1/client/public/manifest.json
+layer2/Client1/client/public/robots.txt
+layer2/Client1/client/src/App.css
+layer2/Client1/client/src/App.js
+layer2/Client1/client/src/App.test.js
+layer2/Client1/client/src/index.css
+layer2/Client1/client/src/index.js
+layer2/Client1/client/src/logo.svg
+layer2/Client1/client/src/reportWebVitals.js
+layer2/Client1/client/src/setupTests.js
+layer2/Client1/client/src/styles.css
+layer2/Client1/components/MyChart.jsx
+layer2/Client1/components/Slide.tsx
+layer2/Client1/public/index.html
+layer2/Client1/src/App.js
+layer2/Client1/src/index.js
+layer2/Client1/src/react-app-env.d.ts
+layer3/Client/.gitignore
+layer3/Client/package-lock.json
+layer3/Client/package.json
+layer3/Client/public/index.html
+layer3/Client/src/App.js
+layer3/Client/src/index.js
+layer3/Client/src/styles.css

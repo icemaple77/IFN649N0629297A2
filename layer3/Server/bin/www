@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+
+var app = require("../app");
+var debug = require("debug")("server:server");
+var fs = require("fs");
+var path = require("path");
+var http = require("http");
+var https = require("https");
+const ip = require("ip");
+const ipAddress = ip.address();
+
+var privateKey = fs.readFileSync(
+  path.join(__dirname, "../path/to", "private.pem"),
+  "utf8"
+);
+var certificate = fs.readFileSync(
+  path.join(__dirname, "../path/to", "file.crt"),
+  "utf8"
+);
+var credentials = { key: privateKey, cert: certificate };
+
+var PORT = 80;
+var SSLPORT = 443;
+
+var httpServer = http.createServer(app);
+var httpsServer = https.createServer(credentials, app);
+
+httpServer.listen(PORT, function () {
+  console.log("HTTP Server is running on: http://%s:%s", ipAddress, PORT);
+});
+httpsServer.listen(SSLPORT, function () {
+  console.log("HTTPS Server is running on: https://%s:%s", ipAddress, SSLPORT);
+});
