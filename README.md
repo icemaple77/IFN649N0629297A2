@@ -1,4 +1,4 @@
-# IFN 649 IOT ASSESSMENT
+# Secure Cloud Infrastructure for Enterprise
 
 ## **Introduction**
 
